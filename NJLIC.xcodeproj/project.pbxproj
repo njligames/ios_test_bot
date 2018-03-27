@@ -1,0 +1,1465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1012FC0C3CF24468A2782638 /* uninstall */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6D43E646CD9E4A3DB259E9B6 /* Build configuration list for PBXAggregateTarget "uninstall" */;
+			buildPhases = (
+				FE79BCF972554C8F94C51877 /* CMake Rules */,
+			);
+			dependencies = (
+				7B3575B0A87D4FD08CB7FC56 /* PBXTargetDependency */,
+			);
+			name = uninstall;
+			productName = uninstall;
+		};
+		1F84D452A7F7463C832339B9 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7F3A1DA23D9A43FCA2B071D3 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				AA834498070E482884EB3BC2 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				8B44D748CB854EAE961F9138 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		634CDAB5F0AF4F8BB45E5205 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 164226A930C1447D9AD23924 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				786AAB19262B4BE283698AB4 /* CMake Rules */,
+			);
+			dependencies = (
+				93158DE19EB548E399534D43 /* PBXTargetDependency */,
+				85E3523207AF465BAA8D695C /* PBXTargetDependency */,
+				5E959B09DF92494996A14140 /* PBXTargetDependency */,
+				A88B4DDFF4684E09B42BE99C /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		C02DACC4357F4693A6AED9EB /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E9514F0CF66F4A59A87F4B69 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				C9E2C601A98444F3A4FC1DBC /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		009B5978194A4987B5C6977F /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/src/SDL_test_common.c */ = {isa = PBXBuildFile; fileRef = 24DFE4E83CE541CF90971013 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/src/SDL_test_common.c */; };
+		0989DD2324A1459494B94288 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/src/main.cpp */ = {isa = PBXBuildFile; fileRef = D046CEFD844D4D55A63B1D12 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/src/main.cpp */; };
+		0CBD7E449B2549C598EE1D00 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/src/SDL_test_common.c */ = {isa = PBXBuildFile; fileRef = A152E5A97197461D9839108F /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/src/SDL_test_common.c */; };
+		2E618B80DE2A43C28C7E9769 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/CMakeFiles/NJLIC-exe.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = DA7A3D9897B9484CA32E06DE /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/CMakeFiles/NJLIC-exe.dir/Info.plist */; };
+		68731273C108490CA1BE71C1 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 521CE6372A5E4C84A1E3DEE0 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/src/main.cpp */; };
+		76AA57BA2DD3429DB51F28A3 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/cmake.in/platform.in/ios/Assets.xcassets */ = {isa = PBXBuildFile; fileRef = D046E46908A44EB9A0C01C5B /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/cmake.in/platform.in/ios/Assets.xcassets */; };
+		7B39B7A16EC5491687489CE0 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = AFE004E5CA694A9384B9A9EB /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */; };
+		80930177AE184C719AEBEBD0 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 28A83E36627C49989B4DD9B5 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/src/main.cpp */; };
+		9ED00DAAF60C4FAD84543E6E /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/src/SDL_test_common.c */ = {isa = PBXBuildFile; fileRef = ECAC5B94981C4336BCA3409B /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/src/SDL_test_common.c */; };
+		AFCAD2037F7141569E35E720 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 368E358B61614FC1B31850BC /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */; };
+		BAC13BC39B7F44A282D3063D /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8E9857669E3A4F998E7785ED /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */; };
+		BE39F3CA4FDF42F9B3C54555 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/cmake.in/platform.in/ios/Assets.xcassets */ = {isa = PBXBuildFile; fileRef = 6D7332D1E9BE409FA5A1A29F /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/cmake.in/platform.in/ios/Assets.xcassets */; };
+		ED44EAF0423D4FAD843354F7 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/cmake.in/platform.in/ios/Assets.xcassets */ = {isa = PBXBuildFile; fileRef = 8B5B7DF3FD5848CDB7428B61 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/cmake.in/platform.in/ios/Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		4FB708380FC74D19B8918FB7 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		63084046E9C6494BA1EA76AC /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		AF2CFA915BF14E95B4244A24 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		F8387625F2D649A5986D4B96 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0C4C332106744CF2BD80984B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000F2DAA462B43DEB3451D07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75DE2722D5C64087881A8251;
+			remoteInfo = "NJLIC-static";
+		};
+		16DA1B1A31554F799BD78A60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000F2DAA462B43DEB3451D07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 634CDAB5F0AF4F8BB45E5205;
+			remoteInfo = ALL_BUILD;
+		};
+		7CF01E9F31F74A66B77F90A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000F2DAA462B43DEB3451D07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EAB1E8CA03F4EAD97FEDD7D;
+			remoteInfo = NJLIC;
+		};
+		8A192C08121941ED8EE2A71C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000F2DAA462B43DEB3451D07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C02DACC4357F4693A6AED9EB;
+			remoteInfo = ZERO_CHECK;
+		};
+		A903CDB9805A45809B5D8FF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000F2DAA462B43DEB3451D07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C02DACC4357F4693A6AED9EB;
+			remoteInfo = ZERO_CHECK;
+		};
+		BB7CA2093D0341D782415373 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000F2DAA462B43DEB3451D07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F261BE2371DE4C109D2C24FF;
+			remoteInfo = "NJLIC-exe";
+		};
+		F1D64E607DA248D9BE5AB051 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000F2DAA462B43DEB3451D07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C02DACC4357F4693A6AED9EB;
+			remoteInfo = ZERO_CHECK;
+		};
+		F5E25519654D48819DABD4BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000F2DAA462B43DEB3451D07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C02DACC4357F4693A6AED9EB;
+			remoteInfo = ZERO_CHECK;
+		};
+		FC5A72C1F95B44EE890CA6A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000F2DAA462B43DEB3451D07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C02DACC4357F4693A6AED9EB;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12195C9033CF4825B9B46281 /* NJLIC-exe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "NJLIC-exe"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D2632EFAFAB42A082403FB8 /* NJLIC-static */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libNJLICd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		24DFE4E83CE541CF90971013 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/src/SDL_test_common.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_test_common.c; path = _build_ios/test_engine_repo/src/SDL_test_common.c; sourceTree = SOURCE_ROOT; };
+		27CD8856509740E3A308D0B6 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		28A83E36627C49989B4DD9B5 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = _build_ios/test_engine_repo/src/main.cpp; sourceTree = SOURCE_ROOT; };
+		368E358B61614FC1B31850BC /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		521CE6372A5E4C84A1E3DEE0 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = _build_ios/test_engine_repo/src/main.cpp; sourceTree = SOURCE_ROOT; };
+		6D7332D1E9BE409FA5A1A29F /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/cmake.in/platform.in/ios/Assets.xcassets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = _build_ios/cmake.in/platform.in/ios/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		7A0D0E50C40A4478AD2984C6 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7DAC57206A1D431281E0C7A7 /* NJLIC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libNJLICd.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B5B7DF3FD5848CDB7428B61 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/cmake.in/platform.in/ios/Assets.xcassets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = _build_ios/cmake.in/platform.in/ios/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		8E9857669E3A4F998E7785ED /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9E6631B0C78447F4BFAFA28F /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A152E5A97197461D9839108F /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/src/SDL_test_common.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_test_common.c; path = _build_ios/test_engine_repo/src/SDL_test_common.c; sourceTree = SOURCE_ROOT; };
+		AFE004E5CA694A9384B9A9EB /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D046CEFD844D4D55A63B1D12 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = _build_ios/test_engine_repo/src/main.cpp; sourceTree = SOURCE_ROOT; };
+		D046E46908A44EB9A0C01C5B /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/cmake.in/platform.in/ios/Assets.xcassets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = _build_ios/cmake.in/platform.in/ios/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		DA7A3D9897B9484CA32E06DE /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/CMakeFiles/NJLIC-exe.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "_build_ios/CMakeFiles/NJLIC-exe.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		ECAC5B94981C4336BCA3409B /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/src/SDL_test_common.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_test_common.c; path = _build_ios/test_engine_repo/src/SDL_test_common.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		288F9D9BA8094999AA25EE8B /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				44DE6417F414477994B9FBB5 /* CMake Rules */,
+				9E6631B0C78447F4BFAFA28F /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		2CB35ABD766D4E129835D1CE /* NJLIC */ = {
+			isa = PBXGroup;
+			children = (
+				90098649B2194C61B9D25E05 /* Source Files */,
+				368E358B61614FC1B31850BC /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */,
+				8B5B7DF3FD5848CDB7428B61 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/cmake.in/platform.in/ios/Assets.xcassets */,
+			);
+			name = NJLIC;
+			sourceTree = "<group>";
+		};
+		44DE6417F414477994B9FBB5 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		5E03EBB0470B414382A0453A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		65519DD00FCF47AD83BB7865 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DAC57206A1D431281E0C7A7 /* NJLIC */,
+				12195C9033CF4825B9B46281 /* NJLIC-exe */,
+				1D2632EFAFAB42A082403FB8 /* NJLIC-static */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F6572737023498B98609C55 = {
+			isa = PBXGroup;
+			children = (
+				FD185F6F487049BC9C762FB9 /* NJLIC-static */,
+				AF2D539C9BE24220A6C2E0F7 /* uninstall */,
+				2CB35ABD766D4E129835D1CE /* NJLIC */,
+				9566F41BC65742A885D3FCE8 /* NJLIC-exe */,
+				A78565756C324D758CAAAA4A /* ALL_BUILD */,
+				288F9D9BA8094999AA25EE8B /* ZERO_CHECK */,
+				65519DD00FCF47AD83BB7865 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D54BB18816843D3A7CAA097 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				24DFE4E83CE541CF90971013 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/src/SDL_test_common.c */,
+				28A83E36627C49989B4DD9B5 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/src/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		90098649B2194C61B9D25E05 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A152E5A97197461D9839108F /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/src/SDL_test_common.c */,
+				D046CEFD844D4D55A63B1D12 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/src/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9566F41BC65742A885D3FCE8 /* NJLIC-exe */ = {
+			isa = PBXGroup;
+			children = (
+				FF2D952394EA448F9FDCF090 /* Source Files */,
+				CC6F5BB218F64F2DB896B410 /* Resources */,
+				8E9857669E3A4F998E7785ED /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */,
+				D046E46908A44EB9A0C01C5B /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/cmake.in/platform.in/ios/Assets.xcassets */,
+			);
+			name = "NJLIC-exe";
+			sourceTree = "<group>";
+		};
+		A78565756C324D758CAAAA4A /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				B7A7EF8523434FC7AA1D4D0F /* CMake Rules */,
+				27CD8856509740E3A308D0B6 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		AF2D539C9BE24220A6C2E0F7 /* uninstall */ = {
+			isa = PBXGroup;
+			children = (
+				5E03EBB0470B414382A0453A /* CMake Rules */,
+				7A0D0E50C40A4478AD2984C6 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */,
+			);
+			name = uninstall;
+			sourceTree = "<group>";
+		};
+		B7A7EF8523434FC7AA1D4D0F /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		CC6F5BB218F64F2DB896B410 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA7A3D9897B9484CA32E06DE /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/CMakeFiles/NJLIC-exe.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FD185F6F487049BC9C762FB9 /* NJLIC-static */ = {
+			isa = PBXGroup;
+			children = (
+				8D54BB18816843D3A7CAA097 /* Source Files */,
+				AFE004E5CA694A9384B9A9EB /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/CMakeLists.txt */,
+				6D7332D1E9BE409FA5A1A29F /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/cmake.in/platform.in/ios/Assets.xcassets */,
+			);
+			name = "NJLIC-static";
+			sourceTree = "<group>";
+		};
+		FF2D952394EA448F9FDCF090 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECAC5B94981C4336BCA3409B /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/src/SDL_test_common.c */,
+				521CE6372A5E4C84A1E3DEE0 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/src/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75DE2722D5C64087881A8251 /* NJLIC-static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1768592E5574B81A6E26F76 /* Build configuration list for PBXNativeTarget "NJLIC-static" */;
+			buildPhases = (
+				723412C6272E4EAF9C6D433C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FBFD090D9B346B38BFD0A78 /* PBXTargetDependency */,
+			);
+			name = "NJLIC-static";
+			productName = "NJLIC-static";
+			productReference = 1D2632EFAFAB42A082403FB8 /* NJLIC-static */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7EAB1E8CA03F4EAD97FEDD7D /* NJLIC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9724E4449FC94AA19DB664B2 /* Build configuration list for PBXNativeTarget "NJLIC" */;
+			buildPhases = (
+				FDF02C94F4154607B53547C9 /* Sources */,
+				F23F3B205C0E45FA86617251 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA681163721F4FA1B17ECB89 /* PBXTargetDependency */,
+			);
+			name = NJLIC;
+			productName = NJLIC;
+			productReference = 7DAC57206A1D431281E0C7A7 /* NJLIC */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		F261BE2371DE4C109D2C24FF /* NJLIC-exe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EABD3B18C6A4DBF92EE2684 /* Build configuration list for PBXNativeTarget "NJLIC-exe" */;
+			buildPhases = (
+				751E7B71C37743BB947E4B28 /* Resources */,
+				1DA6F15F729548EEB41CEA9E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A5DFFF06CE04F55B9CD9888 /* PBXTargetDependency */,
+			);
+			name = "NJLIC-exe";
+			productName = "NJLIC-exe";
+			productReference = 12195C9033CF4825B9B46281 /* NJLIC-exe */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000F2DAA462B43DEB3451D07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = 3A5E11F5ADED4EE4B2CC0D02 /* Build configuration list for PBXProject "NJLIC" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				AF2CFA915BF14E95B4244A24 /* Debug */,
+				63084046E9C6494BA1EA76AC /* Release */,
+				4FB708380FC74D19B8918FB7 /* MinSizeRel */,
+				F8387625F2D649A5986D4B96 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 7F6572737023498B98609C55;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				634CDAB5F0AF4F8BB45E5205 /* ALL_BUILD */,
+				7EAB1E8CA03F4EAD97FEDD7D /* NJLIC */,
+				F261BE2371DE4C109D2C24FF /* NJLIC-exe */,
+				75DE2722D5C64087881A8251 /* NJLIC-static */,
+				C02DACC4357F4693A6AED9EB /* ZERO_CHECK */,
+				1F84D452A7F7463C832339B9 /* install */,
+				1012FC0C3CF24468A2782638 /* uninstall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		328783315C184C27A8E08903 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		786AAB19262B4BE283698AB4 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios -f /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		8CF53119732E4816B3E53B3C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		AA834498070E482884EB3BC2 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios -f /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		BE06B4F668C64860A39EB9A3 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C9E2C601A98444F3A4FC1DBC /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios -f /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F23F3B205C0E45FA86617251 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios -f /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/CMakeScripts/NJLIC_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F92582CA846D457982FD91A9 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		FE79BCF972554C8F94C51877 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios -f /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/CMakeScripts/uninstall_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		751E7B71C37743BB947E4B28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AA57BA2DD3429DB51F28A3 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/cmake.in/platform.in/ios/Assets.xcassets */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DA6F15F729548EEB41CEA9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED00DAAF60C4FAD84543E6E /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/src/SDL_test_common.c */,
+				68731273C108490CA1BE71C1 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/src/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723412C6272E4EAF9C6D433C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009B5978194A4987B5C6977F /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/src/SDL_test_common.c */,
+				80930177AE184C719AEBEBD0 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/src/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF02C94F4154607B53547C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CBD7E449B2549C598EE1D00 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/src/SDL_test_common.c */,
+				0989DD2324A1459494B94288 /* /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/src/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FBFD090D9B346B38BFD0A78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C02DACC4357F4693A6AED9EB /* ZERO_CHECK */;
+			targetProxy = 8A192C08121941ED8EE2A71C /* PBXContainerItemProxy */;
+		};
+		5E959B09DF92494996A14140 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EAB1E8CA03F4EAD97FEDD7D /* NJLIC */;
+			targetProxy = 7CF01E9F31F74A66B77F90A5 /* PBXContainerItemProxy */;
+		};
+		7B3575B0A87D4FD08CB7FC56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C02DACC4357F4693A6AED9EB /* ZERO_CHECK */;
+			targetProxy = A903CDB9805A45809B5D8FF7 /* PBXContainerItemProxy */;
+		};
+		85E3523207AF465BAA8D695C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75DE2722D5C64087881A8251 /* NJLIC-static */;
+			targetProxy = 0C4C332106744CF2BD80984B /* PBXContainerItemProxy */;
+		};
+		8B44D748CB854EAE961F9138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 634CDAB5F0AF4F8BB45E5205 /* ALL_BUILD */;
+			targetProxy = 16DA1B1A31554F799BD78A60 /* PBXContainerItemProxy */;
+		};
+		93158DE19EB548E399534D43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C02DACC4357F4693A6AED9EB /* ZERO_CHECK */;
+			targetProxy = FC5A72C1F95B44EE890CA6A0 /* PBXContainerItemProxy */;
+		};
+		9A5DFFF06CE04F55B9CD9888 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C02DACC4357F4693A6AED9EB /* ZERO_CHECK */;
+			targetProxy = F1D64E607DA248D9BE5AB051 /* PBXContainerItemProxy */;
+		};
+		A88B4DDFF4684E09B42BE99C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F261BE2371DE4C109D2C24FF /* NJLIC-exe */;
+			targetProxy = BB7CA2093D0341D782415373 /* PBXContainerItemProxy */;
+		};
+		EA681163721F4FA1B17ECB89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C02DACC4357F4693A6AED9EB /* ZERO_CHECK */;
+			targetProxy = F5E25519654D48819DABD4BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04B5D3DB10324B319260FED1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall      -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NJLIC;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1606E20A0A584184936048E2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1B71A8A3102C4D9AA9596E39 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3C38F0D0B8C44982BD7C7713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NJLIC_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = " -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall      -DNDEBUG -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  -lm -liconv -framework OpenGLES -framework UIKit -framework Foundation -framework AVFoundation -framework GameController -framework CoreMotion -framework CoreGraphics -framework QuartzCore -framework CoreVideo -framework CoreAudio -framework AudioToolbox /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/lib/ios/Release$(EFFECTIVE_PLATFORM_NAME)/libSDL2.a -Wl,-undefined,error";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NJLIC;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3EE7BF1ED5D34FF9B532D9DF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3F6BABA772764521B8BB8EEA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		406B846829CD47B4A6C46B51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		43685C31D6524DE9899986CC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/build;
+			};
+			name = MinSizeRel;
+		};
+		502BC6342DCE486A8C7241D6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = NO;
+				DEVELOPMENT_TEAM = SRBQ5SCF5X;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/include");
+				INFOPLIST_FILE = "/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/CMakeFiles/NJLIC-exe.dir/Info.plist";
+				INSTALL_PATH = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/ProductRelease;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = " -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall      -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lm -liconv -framework OpenGLES -framework UIKit -framework Foundation -framework AVFoundation -framework GameController -framework CoreMotion -framework CoreGraphics -framework QuartzCore -framework CoreVideo -framework CoreAudio -framework AudioToolbox /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/lib/ios/Release$(EFFECTIVE_PLATFORM_NAME)/libSDL2.a -Wl,-undefined,error";
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.njlicgames.engine.ios.source;
+				PRODUCT_NAME = NJLICGameEngine;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		51B1194B7A154D67BB9C0E1A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/build;
+			};
+			name = RelWithDebInfo;
+		};
+		65F2153AA9494C458926AC3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/build;
+			};
+			name = Debug;
+		};
+		6892E79907404C25845CBC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		7157B06043034B82AA4D6A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NJLIC_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = " -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall     -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  -lm -liconv -framework OpenGLES -framework UIKit -framework Foundation -framework AVFoundation -framework GameController -framework CoreMotion -framework CoreGraphics -framework QuartzCore -framework CoreVideo -framework CoreAudio -framework AudioToolbox /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/lib/ios/Release$(EFFECTIVE_PLATFORM_NAME)/libSDL2.a -Wl,-undefined,error";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NJLICd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		715D0C5181FF40209757ACF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = NO;
+				DEVELOPMENT_TEAM = SRBQ5SCF5X;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/include");
+				INFOPLIST_FILE = "/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/CMakeFiles/NJLIC-exe.dir/Info.plist";
+				INSTALL_PATH = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/ProductRelease;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = " -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall      ";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lm -liconv -framework OpenGLES -framework UIKit -framework Foundation -framework AVFoundation -framework GameController -framework CoreMotion -framework CoreGraphics -framework QuartzCore -framework CoreVideo -framework CoreAudio -framework AudioToolbox /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/lib/ios/Release$(EFFECTIVE_PLATFORM_NAME)/libSDL2.a -Wl,-undefined,error";
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.njlicgames.engine.ios.source;
+				PRODUCT_NAME = NJLICGameEngine;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		805B13D4798647ADB28D4D8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		882790132BAC4085B401023B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/build;
+			};
+			name = Release;
+		};
+		98C33FC0D17C4173A18413F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall      -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NJLIC;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		99AF8067A52748399EED5451 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9F2E64A076A04DB396180425 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall         -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NJLIC;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9FD5126EB6B6462D87D8C795 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A707011E2C604D8EAA9367EA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = NO;
+				DEVELOPMENT_TEAM = SRBQ5SCF5X;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/include");
+				INFOPLIST_FILE = "/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/CMakeFiles/NJLIC-exe.dir/Info.plist";
+				INSTALL_PATH = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/ProductRelease;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = " -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall         -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lm -liconv -framework OpenGLES -framework UIKit -framework Foundation -framework AVFoundation -framework GameController -framework CoreMotion -framework CoreGraphics -framework QuartzCore -framework CoreVideo -framework CoreAudio -framework AudioToolbox /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/lib/ios/Release$(EFFECTIVE_PLATFORM_NAME)/libSDL2.a -Wl,-undefined,error";
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.njlicgames.engine.ios.source;
+				PRODUCT_NAME = NJLICGameEngine;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AD9144204D9F487FB777A5A5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B02CD2177B42405D848A628C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B0F4B96A72FE468A96560823 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NJLIC_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = " -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall         -DNDEBUG -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  -lm -liconv -framework OpenGLES -framework UIKit -framework Foundation -framework AVFoundation -framework GameController -framework CoreMotion -framework CoreGraphics -framework QuartzCore -framework CoreVideo -framework CoreAudio -framework AudioToolbox /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/lib/ios/Release$(EFFECTIVE_PLATFORM_NAME)/libSDL2.a -Wl,-undefined,error";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NJLIC;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B58A1E1A05A6471387952E57 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NJLIC_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = " -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall      -DNDEBUG -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  -lm -liconv -framework OpenGLES -framework UIKit -framework Foundation -framework AVFoundation -framework GameController -framework CoreMotion -framework CoreGraphics -framework QuartzCore -framework CoreVideo -framework CoreAudio -framework AudioToolbox /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/lib/ios/Release$(EFFECTIVE_PLATFORM_NAME)/libSDL2.a -Wl,-undefined,error";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NJLIC;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CE057FB91D084B399B614F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = NO;
+				DEVELOPMENT_TEAM = SRBQ5SCF5X;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/include");
+				INFOPLIST_FILE = "/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/CMakeFiles/NJLIC-exe.dir/Info.plist";
+				INSTALL_PATH = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/ProductRelease;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = " -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall      -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lm -liconv -framework OpenGLES -framework UIKit -framework Foundation -framework AVFoundation -framework GameController -framework CoreMotion -framework CoreGraphics -framework QuartzCore -framework CoreVideo -framework CoreAudio -framework AudioToolbox /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/lib/ios/Release$(EFFECTIVE_PLATFORM_NAME)/libSDL2.a -Wl,-undefined,error";
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.njlicgames.engine.ios.source;
+				PRODUCT_NAME = NJLICGameEngine;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		DA527452C24B439E96EB7C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		E3585281F5C5443D95BCBB1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		E89AAB80F7484A4FB1736754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		EEEE8B7AC365430B8FF7EAE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F3413B5723E24EAA8AA419BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall      ";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NJLICd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F840D5F2B0164799B9A2F474 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/include,/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/test_engine_repo/include,"/Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios/thirdparty/SDL2-2.0.7/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jamesfolk/Documents/NJLI/TESTBED/test_project_repo/_build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		164226A930C1447D9AD23924 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6892E79907404C25845CBC82 /* Debug */,
+				DA527452C24B439E96EB7C6D /* Release */,
+				1606E20A0A584184936048E2 /* MinSizeRel */,
+				3F6BABA772764521B8BB8EEA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3A5E11F5ADED4EE4B2CC0D02 /* Build configuration list for PBXProject "NJLIC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F2153AA9494C458926AC3D /* Debug */,
+				882790132BAC4085B401023B /* Release */,
+				43685C31D6524DE9899986CC /* MinSizeRel */,
+				51B1194B7A154D67BB9C0E1A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6D43E646CD9E4A3DB259E9B6 /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E89AAB80F7484A4FB1736754 /* Debug */,
+				406B846829CD47B4A6C46B51 /* Release */,
+				99AF8067A52748399EED5451 /* MinSizeRel */,
+				1B71A8A3102C4D9AA9596E39 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7EABD3B18C6A4DBF92EE2684 /* Build configuration list for PBXNativeTarget "NJLIC-exe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715D0C5181FF40209757ACF5 /* Debug */,
+				CE057FB91D084B399B614F70 /* Release */,
+				502BC6342DCE486A8C7241D6 /* MinSizeRel */,
+				A707011E2C604D8EAA9367EA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7F3A1DA23D9A43FCA2B071D3 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B02CD2177B42405D848A628C /* Debug */,
+				E3585281F5C5443D95BCBB1C /* Release */,
+				3EE7BF1ED5D34FF9B532D9DF /* MinSizeRel */,
+				9FD5126EB6B6462D87D8C795 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9724E4449FC94AA19DB664B2 /* Build configuration list for PBXNativeTarget "NJLIC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7157B06043034B82AA4D6A5D /* Debug */,
+				3C38F0D0B8C44982BD7C7713 /* Release */,
+				B58A1E1A05A6471387952E57 /* MinSizeRel */,
+				B0F4B96A72FE468A96560823 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C1768592E5574B81A6E26F76 /* Build configuration list for PBXNativeTarget "NJLIC-static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3413B5723E24EAA8AA419BC /* Debug */,
+				98C33FC0D17C4173A18413F4 /* Release */,
+				04B5D3DB10324B319260FED1 /* MinSizeRel */,
+				9F2E64A076A04DB396180425 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E9514F0CF66F4A59A87F4B69 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805B13D4798647ADB28D4D8E /* Debug */,
+				EEEE8B7AC365430B8FF7EAE7 /* Release */,
+				AD9144204D9F487FB777A5A5 /* MinSizeRel */,
+				F840D5F2B0164799B9A2F474 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000F2DAA462B43DEB3451D07 /* Project object */;
+}
